@@ -1,5 +1,4 @@
 :root {
-    /* --- PALETA DE CORES (Identidade Mega Man) --- */
     --color-bg-primary: #001c44;       /* Azul escuro profundo (fundo do espaço/fases) */
     --color-bg-secondary: #002a66;     /* Azul escuro intermediário (cards e containers) */
     --color-megaman-blue: #0070ec;     /* O azul clássico do capacete do Mega Man */
@@ -28,7 +27,6 @@
     --spacing-lg: 4rem;
 }
 
-/* Container Principal */
 .stage-select-container {
     background-color: var(--color-bg-primary);
     padding: var(--spacing-md);
@@ -74,38 +72,6 @@
     background-position: center;
     background-repeat: no-repeat;
 }
-
-/* .buster-icon{
-    background-image: ;
-}
-
-.code-icon{
-    background-image: ;
-}
-
-.photo-icon{
-    background-image: ;
-}
-
-.video-icon{
-    background-image: ;
-}
-
-.report-icon{
-    background-image: ;
-}
-
-.learning-icon{
-    background-image: ;
-}
-
-.skill-icon{
-    background-image: ;
-}
-
-.review-icon{
-    background-image: ;
-} */
 
 /* Espaço do Elemento Central (Player) */
 .stage-player-center {

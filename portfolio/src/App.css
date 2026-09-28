@@ -1,0 +1,28 @@
+:root {
+    --color-bg-primary: #001c44;       /* Azul escuro profundo (fundo do espaço/fases) */
+    --color-bg-secondary: #002a66;     /* Azul escuro intermediário (cards e containers) */
+    --color-megaman-blue: #0070ec;     /* O azul clássico do capacete do Mega Man */
+    --color-megaman-light: #00fcfc;    /* O ciano brilhante/neon da armadura e tiros */
+    --color-energy-yellow: #fcfc00;   /* Amarelo das barras de energia e itens */
+    --color-boss-red: #e40058;         /* Vermelho de alerta / barra de vida dos chefes */
+    --color-text-primary: #ffffff;     /* Texto principal */
+    --color-text-muted: #8cd6ff;       /* Texto secundário (azul claro legível) */
+    
+    /* --- FONTES --- */
+    /* Dica: Use fontes como 'Press Start 2P' para títulos e uma sem-serifa limpa para blocos de texto */
+    --font-header: 'Press Start 2P', 'Courier New', monospace;
+    --font-body: 'Orbitron', 'Segoe UI', sans-serif;
+
+    /* --- BORDAS E EFEITOS (Estilo Interface de Fase/Menu) --- */
+    --border-pixel: 4px solid #ffffff;
+    --border-neon: 2px solid var(--color-megaman-light);
+    --shadow-buster: 0 0 12px var(--color-megaman-light);
+    --shadow-damage: 0 0 12px var(--color-boss-red);
+    --pixel-corners: 0px; /* Cantos retos/quadrados combinam mais com o estilo retro */
+
+    /* --- ESPAÇAMENTO --- */
+    --spacing-xs: 0.5rem;
+    --spacing-sm: 1rem;
+    --spacing-md: 2rem;
+    --spacing-lg: 4rem;
+}
